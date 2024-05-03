@@ -1,3 +1,12 @@
+:root {
+  --primary: #0b132a;
+  --secondary: #4f5665;
+
+  --accent: #f53838;
+
+  --page-width: 1140px;
+}
+
 /* rubik-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -25,8 +34,71 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4f5665;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding-block: 45px;
+}
+
+.header__wrapper {
+  height: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--page-width);
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  gap: 40px;
+}
+
+.header__list--auth {
+  gap: 30px;
+}
+
+.header__item {
+  /* margin-right: 40px; */
+  line-height: 19px;
+}
+.header__item a {
+  color: var(--secondary);
+}
+
+.header__item--medium {
+  font-weight: 500;
+}
+
+.header__item--medium a {
+  color: var(--primary);
+}
+
+.main {
+}
+
+.page-width-default {
+  max-width: var(--page-width);
+  margin-inline: auto;
 }
