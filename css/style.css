@@ -62,6 +62,13 @@ h2 {
   color: var(--primary);
 }
 
+h3 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: var(--primary);
+}
+
 p {
   font-weight: 400;
   font-size: 16px;
@@ -169,6 +176,7 @@ strong {
 .hero {
   padding-block: 45px 50px;
 }
+
 .hero__wrapper {
   display: flex;
   flex-direction: row;
@@ -263,4 +271,46 @@ strong {
   font-size: 20px;
   line-height: 30px;
   color: var(--secondary);
+}
+
+.features {
+  padding-block: 50px 125px;
+}
+
+.features__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 170px;
+}
+
+.features__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.features__text-small {
+  font-size: 14px;
+}
+
+.features__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.features__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+.features__item img {
+  width: 24px;
+  height: 24px;
 }
