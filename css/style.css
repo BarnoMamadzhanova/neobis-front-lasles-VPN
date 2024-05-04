@@ -69,6 +69,20 @@ h3 {
   color: var(--primary);
 }
 
+h5 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--primary);
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--primary);
+}
+
 p {
   font-weight: 400;
   font-size: 16px;
@@ -130,6 +144,23 @@ strong {
   padding: 18px 78px;
   min-width: 250px;
   /* height: 60px; */
+}
+
+.default__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.default__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.default__text-small {
+  font-size: 14px;
 }
 
 .header {
@@ -293,24 +324,67 @@ strong {
   gap: 20px;
 }
 
-.features__text-small {
-  font-size: 14px;
-}
-
-.features__list {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.features__item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 3px;
-}
-
-.features__item img {
+.features__icon {
   width: 24px;
   height: 24px;
+}
+
+.plans {
+  padding-block: 75px 75px;
+  width: 1090px;
+  margin: 0 auto;
+}
+
+.plans__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.plans__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plans__cardbox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+}
+
+.plans__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+}
+
+.plans__image-box {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.plans__price-box {
+  margin-block: 50px 50px;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-card {
+  border: 2px solid var(--accent);
+  border-radius: 10px;
 }
