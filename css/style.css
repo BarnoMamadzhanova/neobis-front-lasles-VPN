@@ -567,3 +567,62 @@ strong {
   border-radius: 10px;
   padding: 17px 55px;
 }
+
+.footer__navigation {
+  padding-block: 30px 30px;
+  margin: 0 auto;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 230px;
+  /* padding: 0px 150px 100px; */
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footer__impressum {
+  gap: 30px;
+  max-width: 340px;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: row;
+  gap: 125px;
+}
+
+.footer__logobox {
+  gap: 20px;
+}
+
+.footer__iconbox {
+  gap: 30px;
+}
+
+.footer__icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__list-header {
+  min-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__list {
+  gap: 10;
+}
