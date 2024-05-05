@@ -567,7 +567,6 @@ strong {
   padding-block: 30px 30px;
   position: relative;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 .subscribe__overlay {
@@ -913,6 +912,7 @@ strong {
 
   .subscribe {
     padding-block: 50px 50px;
+    overflow: hidden;
   }
 
   .subscribe__wrapper {
@@ -1711,6 +1711,7 @@ strong {
   .subscribe {
     padding: 0 2rem;
     padding-block: 50px 50px;
+    overflow: hidden;
   }
 
   .subscribe__overlay {
